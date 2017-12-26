@@ -8,8 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class SoldiersComponent implements OnInit {
- 
-soldier = 'Windstorm';
+ soldier = 'Windstorm';
 
   constructor() { }
 
