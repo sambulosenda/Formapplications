@@ -5,7 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './soldiers.component.html',
   styleUrls: ['./soldiers.component.css']
 })
+
+
 export class SoldiersComponent implements OnInit {
+ 
+soldier = 'Windstorm';
 
   constructor() { }
 
