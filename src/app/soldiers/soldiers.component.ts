@@ -1,5 +1,7 @@
+
 import { Component, OnInit } from '@angular/core';
 import { Soldier} from '../soldier';
+import { SOLDIERS } from '../mock-soldiers';
 
 @Component({
   selector: 'app-soldiers',
@@ -10,10 +12,8 @@ import { Soldier} from '../soldier';
 
 export class SoldiersComponent implements OnInit {
 
-soldier: Soldier = {
-  id : 1,
-  name : 'Windstorm Senda'
-};
+  soldier = SOLDIERS;
+
 
 
   constructor() { }
