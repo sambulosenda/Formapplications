@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+import { FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { SoldiersComponent } from './soldiers/soldiers.component';
 
@@ -12,7 +12,8 @@ import { SoldiersComponent } from './soldiers/soldiers.component';
     SoldiersComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

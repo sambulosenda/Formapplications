@@ -1,1 +1,8 @@
-<p>{{soldier}}</p>
+<p>{{ soldier.name | uppercase }} Details</p>
+
+
+<div>
+    <label> name:
+        <input [(ngModel)] = "soldier.name" placeholder="name">
+    </label>
+</div>

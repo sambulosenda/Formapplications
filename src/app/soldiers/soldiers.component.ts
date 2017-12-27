@@ -12,8 +12,9 @@ export class SoldiersComponent implements OnInit {
 
 soldier: Soldier = {
   id : 1,
-  name : 'Windstorm'
+  name : 'Windstorm Senda'
 };
+
 
   constructor() { }
 
